@@ -1,0 +1,27 @@
+@use '../variables'
+@use '../mixins'
+.experiences-container
+    margin-bottom: 1rem
+
+    .experiences-grid
+        display: flex
+        flex-direction: column
+        flex-wrap: wrap
+        gap: 1.5rem
+
+    .experience-card
+        @include mixins.center
+        gap: 1.5rem
+        padding: 0.6rem
+        border: 1px solid #333
+        width: 92%
+        border-radius: variables.$card-border-radius
+
+        img
+            
+            width: 15%
+            border-radius: variables.$card-border-radius 
+
+        h3
+            color: variables.$text-color
+            margin-bottom: 1rem

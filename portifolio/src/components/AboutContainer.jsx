@@ -1,7 +1,7 @@
 const AboutContainer = () => {
   return (
     <section className="about-container">
-      <h2>Sobre</h2>
+      <h2>Sobre Mim</h2>
 
       <p>
         Olá! Sou Paloma, uma profissional apaixonada por tecnologia, com 24 anos
